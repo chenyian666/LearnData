@@ -7,13 +7,13 @@ const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
   // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://chenyian666.github.io",
 
   iconAssets: "iconfont",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "奕安",
+    url: "https://chenyian666.github.io",
   },
 
   logo: "/logo.svg",
@@ -65,27 +65,28 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
-    avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    name: "陈奕安",
+    avatar: "/avatar_self.jpg",
+    description: "专升本在读，后端开发者，热衷于研究新工具及新奇理论，定期分享探索成果",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      少数派: [
-        "https://sspai.com/u/zqj05i4v/posts",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
-      Wechat: "https://img.newzone.top/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "https://newzone.top/rss.xml",
+      GitHub: "https://github.com/chenyian666",
+      ZhiHu: "https://www.zhihu.com/people/chen-jian-ji-30",
+      Weibo: "https://weibo.com/u/6092343309",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=807649029&site=qq&menu=yes",
+      WeChat: "https://img.newzone.top/wechat.svg",
+      Twitter: "https://img.newzone.top/wechat.svg",
+      Reddit: "https://img.newzone.top/wechat.svg",
+      小红书: [
+        "https://www.xiaohongshu.com/user/profile/5b8fc4448cd12e000196bd58",
+        path.resolve(__dirname, "icons/xiaohongshu.svg"),
+      ]
     },
   },
 
   // 隐藏打印按钮
-  // print: false,
+  print: true,
 
   plugins: {
     blog: true,
