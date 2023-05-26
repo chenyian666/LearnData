@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as n,a as t}from"./app-39122009.js";const _={},s=t("p",null,"向往互联网的打工人，",-1),c=t("p",null,"坚持学习与自我批评，对每一个机遇保持开放的态度，勇于尝试新鲜事物，",-1),r=t("p",null,"热衷于研究新工具和新奇理论，定期分享探索成果。",-1),l=[s,c,r];function a(i,d){return o(),n("div",null,l)}const p=e(_,[["render",a],["__file","intro.html.vue"]]);export{p as default};
